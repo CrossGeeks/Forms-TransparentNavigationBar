@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:TransparentNavBarXForms" 
+             x:Class="TransparentNavBarXForms.MainPage"
+             Title="About me">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary" 
+                     Icon="ic_settings"
+                     Priority="0" />
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <Image Source="https://puu.sh/BxiB5/f0c4b71b37.png"
+               VerticalOptions="FillAndExpand"
+               HorizontalOptions="FillAndExpand"
+               Aspect="AspectFill"
+               Margin="0,-40,0,0"/>
+    </StackLayout>
+</ContentPage>
